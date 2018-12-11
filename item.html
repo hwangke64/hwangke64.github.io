@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>아이템</title>
+<meta charset='utf-8'>
+<style>
+*{padding: 0; margin: 0;}
+li {list-style-type: none;}
+.clear {clear: both;}
+
+body {background-color: #dad4cf;}
+
+/*  body{font-family: '돋움';
+	font-size: 14px;
+	color: #444444;} */
+
+header {color: white;
+		width: 1200px;
+		height: 100px;
+		margin: auto;
+		border: solid 0px red;}
+
+#logo {float: left;
+	margin: 40px 0 0 10px;
+	border: solid 0px red;}
+
+#menus {float: right;
+	margin-top: 10px;
+	border: solid 0px blue;}
+
+#top_menu {text-align: right;
+			margin-top: 20px;
+			border: solid 0px green;}
+
+#main_menu 
+	{margin-top: 20px;
+	font-family: "맑은 고딕";
+	font-size: 20px;
+	color: 
+	border: solid 0px purple;}
+
+#main_menu li {display: inline;	
+				margin-left: 0px;}
+
+#main_img {width: 100%;
+		   height: 300px;
+		    background-image: url("img/item_main.png");
+		    background-size: 1500px 300px;
+			background-repeat: no-repeat;
+			background-position: top center;
+			margin-top: 20px;}
+
+#contents { width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+		    border: solid 0px white;
+		    margin-top: 20px;
+		    padding-top: 20px;}
+
+/*img {display: block;}*/
+
+#contents table {width: 1000px;
+				margin-left: auto;	
+  				margin-right: auto;
+  				color:#272729;
+  				border:solid 0px white;
+				border-collapse: collapse;
+  				} 
+
+.rifles {text-align: center;
+		line-height: 180%;
+		border-collapse: collapse;}
+
+.rifles th {border:dotted 1px #272729;
+ 			width: 280px;
+ 			height: 40px;}
+
+.rifles td {border:dotted  1px #272729;
+ 			width: 280px;
+ 			line-height: 180%;}
+
+
+
+footer {width: 100%;
+		height: 150px;
+		margin-top: 30px;
+		background-color:  #272729;}
+
+#footer_box {width: 1200px;
+			/*height:150px; */
+			margin: 0 auto;
+			border: solid 0px green; 
+			}
+
+#footer_logo {float: left;
+			margin: 50px 0 0 30px;
+			border:solid 0px red;}
+
+#footer_logo li {display: inline;}
+
+#address{float: right;	
+		margin: 50px 30px 0 0; 
+		color: #6c8ca6;
+		border: solid 0px red;}
+
+a {color: white;
+  text-decoration: none;}
+</style>
+</head>
+<body>
+<header>
+	<div id="logo"> <a href="index.html"><img src="img/page_logo3.png" width="300px"></a></div>
+	<nav id="menus">
+		<div id="top_menu">
+			<a href="login.html"> 로그인</a> | 
+			<a href="join.html"> 회원가입</a> | 
+			
+		</div>
+		<ul id="main_menu" >
+			<li><a href="class_w.html"><img src="img/page_class.png" width="110px"></a>.</li>
+			<li><a href="item.html"><img src="img/page_item.png" width="72px"></a>.</li>
+			<li><a href="story_osiris.html"><img src="img/page_story.png" width="110px"></a>.</li>
+			<li><a href="cinematic.html"><img src="img/page_cinema.png" width="120px"></a></li>
+		</ul>
+	</nav>
+</header>
+<section id="main_img">
+</section>	
+
+<section id="contents" >
+	
+
+		<table id="gun1">
+			<tr>
+				<th colspan="4"><img src="img/item_text1.png" width="300px"></th>
+			</tr>
+
+			<tr class="rifles">
+				<th><img src="img/item_autorifles.png" width="290px"></th>
+				<th><img src="img/item_scoutrifles.png" width="290px"></th>
+				<th><img src="img/item_pulserifles.png" width="290px"></th>
+				<th><img src="img/item_handcannon.png" width="290px"></th>
+			</tr>
+
+			<tr  class="rifles">
+				<th>[자동소총]</th>
+				<th>[정찰소총]</th>
+				<th>[파동소총]</th>
+				<th>[핸드캐논]</th>
+
+			</tr>
+
+			<tr class="rifles">
+				<td>완전 자동으로 발사되는, 임팩트와 발당 위력이 낮은 대신 연사력으로 승부를 보는 근-중거리용 소총.</td>
+				<td>단발로 발사되는 장거리용 소총. 한 발 한 발의 임팩트가 크고 위력도 준수하며 초보가 헤드샷 연습하기에 좋은 총이다.</td>
+				<td>3점사로 발사되는 중거리용 소총. 근-중거리에 걸쳐서 강력한 위력을 자랑하며 조준 보정도 준수하지만 3점사 전부를 머리에 꽂으려면 연습이 필요하다.</td>
+				<td>단발로 발사되는 리볼버. 근거리 위주의 총으로 임팩트가 매우 높고 위력도 강력하여 근거리의 도그파이트에 특화되어 있으나 장탄수가 적다.</td>
+
+			</tr>
+		</table>
+
+
+		<table id="gun2">
+			<tr>
+				<th colspan="4"><img src="img/item_text2.png" width="300px"></th>
+			</tr>
+
+			<tr class="rifles">
+				<th><img src="img/item_shotguns.png" width="290px"></th>
+				<th><img src="img/item_fusionrifles.png" width="290px"></th>
+				<th><img src="img/item_sniper.jpg" width="290px"></th>
+				<th><img src="img/item_sidegun.jpg" width="290px"></th>
+			</tr>
+
+			<tr  class="rifles">
+				<th>[산탄총]</th>
+				<th>[융합소총]</th>
+				<th>[저격총]</th>
+				<th>[보조무기]</th>
+
+			</tr>
+
+			<tr class="rifles">
+				<td>초근접거리에서 사용하는 산탄총. 약점을 포함해서 산탄을 근거리에서 때려박을 경우 무지막지한 위력을 자랑하지만 유효사거리가 매우 짧아 바짝 접근하지 않으면 데미지가 크게 감소한다.</td>
+				<td>트리거를 당기면 일정시간 충전되었다가 발사되는 화력 위주의 총기. 근거리-중거리에 걸쳐서 위력을 발휘한다.</td>
+				<td>초장거리 저격을 위한 총. 긴 사거리와 높은 조준보정을 자랑하지만 근거리에서는 힙샷 크로스헤어조차 나오지 않는, 완전한 저격용 총이다. 한 발 한 발의 임팩트가 높고 위력도 강력하지만 장탄수는 적다.</td>
+				<td>가벼운 자동권총류. 말 그대로 부무장 정도로, 근거리 난전에서 마구 쏘면서 견제하는 용도로 사용된다.</td>
+
+			</tr>
+		</table>
+
+
+		<table id="gun3">
+			<tr>
+				<th colspan="4"><img src="img/item_text3.png" width="300px"></th>
+			</tr>
+
+			<tr class="rifles">
+				<th ><img src="img/item_mashinegun.jpg" width="290px"></th>
+				<th colspan="2"><img src="img/item_roket.jpg" width="290px"></th>
+				<th><img src="img/item_sword.jpg" width="290px"></th>
+				
+			</tr>
+
+			<tr  class="rifles">
+				<th>[기관총]</th>
+				<th colspan="2">[로켓발사기]</th>
+				<th>[대검]</th>
+				
+
+			</tr>
+
+			<tr class="rifles">
+				<td>연사력으로 승부하는 중화기.</td>
+				<td colspan="2">중무장한 적이나 기갑병력에 완벽한 대항책으로 쓸 수 있는 한정적이고 막대한 화력을 자랑한다. 범위 공격으로 막대한 피해를 입히는 무기, 범위 안에 들어가면 플레이어 자신도 피해를 입을 수 있어서 일정거리를 두고 사격해야 한다</td>
+				<td> 대검 수준의 크기를 지니고 있다. R1으로 일반 공격, 공중에서 R2를 누르면 살짝 강력한 위로 베기를 시전할수 있지만 기어스 오브 워의 Cleaver처럼 잔탄 제한이 있어서 휘두를때 마다 탄약을 소비한다.</td>
+			
+
+			</tr>
+		</table>
+
+
+	
+	    
+	</div>
+</section>
+<div class='clear'></div> <!-- float 속성 해제 -->
+<footer>
+	<div id="footer_box">
+	
+			<ul id="footer_logo">
+			<li><img src="img/activ_logo.png " width="150px"></li>
+			<li><img src="img/Bungie_logo.png" width="150px"></li>
+			</ul>
+	
+		<ul id="address">
+			<li>TEL. 123-1234</li>
+			<li>Email : email@domain.com</li>
+			<li>COPYRIGHT (C) BUNGIE ALL RIGHTS RESERVED</li>
+		</ul>
+	</div>
+</footer>
+</body>
+</html>
+
+
+

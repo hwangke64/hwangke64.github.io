@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>시네마틱</title>
+<meta charset='utf-8'>
+<style>
+*{padding: 0; margin: 0;}
+li {list-style-type: none;}
+.clear {clear: both;}
+
+body {background-color: #dad4cf;}
+
+
+
+header {color: white;
+		width: 1200px;
+		height: 100px;
+		margin: auto;
+		border: solid 0px red;}
+
+#logo {float: left;
+	margin: 40px 0 0 10px;
+	border: solid 0px red;}
+
+#menus {float: right;
+	margin-top: 10px;
+	border: solid 0px blue;}
+
+#top_menu {text-align: right;
+			margin-top: 20px;
+			border: solid 0px green;}
+
+#main_menu 
+	{margin-top: 20px;
+	font-family: "맑은 고딕";
+	font-size: 20px;
+	color: 
+	border: solid 0px purple;}
+
+#main_menu li {display: inline;	
+				margin-left: 0px;}
+
+#main_img {width: 100%;
+		   height: 300px;
+		    background-image: url("img/cinema_main.png");
+		    background-size: 1500px 300px;
+			background-repeat: no-repeat;
+			background-position: top center;
+			margin-top: 20px;}
+
+#contents { width: 1200px;
+			margin-left: auto;
+			margin-right: auto;
+		    border: solid 0px white;
+		    margin-top: 20px;
+		    padding-top: 20px;}
+
+#contents table {width: 1200px;
+				border-collapse: collapse;
+				text-align: center;
+				}
+
+#contents th{padding-top: 15px;
+			padding-bottom: 15px;
+			border-bottom: dotted 1px gray;}
+
+#contents td {padding-top: 5px;
+			padding-bottom: 5px;}
+
+
+
+
+
+footer {width: 100%;
+		height: 150px;
+		margin-top: 30px;
+		background-color:  #272729;}
+
+#footer_box {width: 1200px;
+			/*height:150px; */
+			margin: 0 auto;
+			border: solid 0px green; 
+			}
+
+#footer_logo {float: left;
+			margin: 50px 0 0 30px;
+			border:solid 0px red;}
+
+#footer_logo li {display: inline;}
+
+#address{float: right;	
+		margin: 50px 30px 0 0; 
+		color: #6c8ca6;
+		border: solid 0px red;}
+
+a {color: white;
+  text-decoration: none;}
+</style>
+</head>
+<body>
+<header>
+	<div id="logo"> <a href="index.html"><img src="img/page_logo3.png" width="300px"></a></div>
+	<nav id="menus">
+		<div id="top_menu">
+			<a href="login.html"> 로그인</a> | 
+			<a href="join.html"> 회원가입</a> | 
+			
+		</div>
+		<ul id="main_menu" >
+			<li><a href="class_w.html"><img src="img/page_class.png" width="110px"></a>.</li>
+			<li><a href="item.html"><img src="img/page_item.png" width="72px"></a>.</li>
+			<li><a href="story_osiris.html"><img src="img/page_story.png" width="110px"></a>.</li>
+			<li><a href="cinematic.html"><img src="img/page_cinema.png" width="120px"></a></li>
+		</ul>
+	</nav>
+</header>
+<section id="main_img">
+</section>	
+
+<section id="contents" >
+	<table>
+		<tr>
+			<th><img src="img/cinema_logo.png" width="300px"></th>
+		</tr>
+		<tr>
+			<td>　</td>
+		</tr>
+		<tr>
+			<td><iframe width="550" height="315" src="https://www.youtube.com/embed/HOi7cA2go3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="550" height="315" src="https://www.youtube.com/embed/XSJJ5Qkv2NE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+		</tr>
+		
+		<tr>
+			<td><iframe width="367" height="240" src="https://www.youtube.com/embed/v6vw8z1FWsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		    <iframe width="367" height="240" src="https://www.youtube.com/embed/UD4snzCs5As" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="367" height="240" src="https://www.youtube.com/embed/7o5FIQ_8y3Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+		</tr>
+	</table>
+</section>
+<div class='clear'></div> <!-- float 속성 해제 -->
+<footer>
+	<div id="footer_box">
+	
+			<ul id="footer_logo">
+			<li><img src="img/activ_logo.png " width="150px"></li>
+			<li><img src="img/Bungie_logo.png" width="150px"></li>
+			</ul>
+	
+		<ul id="address">
+			<li>TEL. 123-1234</li>
+			<li>Email : email@domain.com</li>
+			<li>COPYRIGHT (C) BUNGIE ALL RIGHTS RESERVED</li>
+		</ul>
+	</div>
+</footer>
+</body>
+</html>
+
+
+
